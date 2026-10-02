@@ -1,0 +1,42 @@
+# Configuracion local y credenciales
+config.json
+.env
+.env.*
+!.env.example
+
+# Bases y datos generados localmente
+*.db
+*.sqlite
+*.sqlite3
+backups/
+
+# Fotos capturadas por el sistema (las imagenes demo viven en fotos_personal/)
+fotos_empleados/*
+!fotos_empleados/.gitkeep
+
+# Logs y diagnosticos de ejecucion
+*.log
+*.txt
+ERROR_LOG*.txt
+RADIOGRAFIA_RELOJ.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Compilaciones y paquetes locales
+build/
+dist/
+*.exe
+*.msi
+*.rar
+*.zip
+
+# IDE y sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

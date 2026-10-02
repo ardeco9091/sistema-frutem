@@ -1,0 +1,16 @@
+{
+    "ip_reloj": "192.168.1.201",
+    "puerto": 8000,
+    "usuario_reloj": "admin",
+    "clave_reloj": "CAMBIAR_CLAVE_DEL_RELOJ",
+    "app_user": "admin",
+    "app_pass": "CAMBIAR_CLAVE_DE_LA_APP",
+    "db_name": "sistema_rrhh_full.db",
+    "db_config": {
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "sistema_rrhh",
+        "port": 3306
+    }
+}
