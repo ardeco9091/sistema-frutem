@@ -17,6 +17,7 @@ fotos_empleados/*
 # Logs y diagnosticos de ejecucion
 *.log
 *.txt
+!requirements.txt
 ERROR_LOG*.txt
 RADIOGRAFIA_RELOJ.txt
 
